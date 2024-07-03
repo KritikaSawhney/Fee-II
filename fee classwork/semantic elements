@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Simple Webpage</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Page!</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Tickets</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>The film tells the story of a bounty hunter called Bhairava (Prabhas) who crosses paths with Ashwatthama (Amitabh) and a test subject called SU-M80 (Deepika) in a bid to make enough units to live in the Complex, run by Supreme Yaskin (Kamal)</p>
+    <section>
+      <h2>About Kalki 2898 AD</h2>
+      <p>Inspired by Hindu scriptures, it is the first installment in a planned Kalki Cinematic Universe. Set in a post-apocalyptic world in the year 2898 AD, the film follows a select group on a mission to save Kalki, the unborn child of SUM-80, a lab subject.</p>
+    </section>
+    <figure>
+      <img src=images/kalki.jpg alt="Image description">
+      <figcaption>Kalki 2898 AD: Box Office records</figcaption>
+    </figure>
+  </main>
+  <aside>
+    <p>Nag Ashwin's Telugu-language mythological sci-fi epic Kalki 2898 AD is like many modern South Indian blockbusters, in that it draws roars of approval from crowds in theaters for major cameos</p>
+  </aside>
+  <footer>
+    <p>&copy; 2024 My Webpage</p>
+  </footer>
+</body>
+</html>
