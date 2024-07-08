@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1><u>APPLICATION FORM
+            
+        </u></h1>
+    </center>
+    <form>
+
+        <h4>Enter your Email-id</h4>
+            <input type="text" >
+            <br>
+            <span>
+            <label for="first name"><b>First Name</b></label></form><br>
+        <input type="text" id="first name" name="abc"><br>
+        <label for="middle name"><b>Middle Name</b></label></form><br>
+        <input type="text" id="middle name" name="abc"><br>
+        <label for="last name"><b>Last Name</b></label></form><br>
+        <input type="text" id="last name" name="abc"><br>
+        <label for="last name"><b>Father's Name</b></label></form><br>
+        <input type="text" id="last name" name="abc"><br>
+            </span>
+            <hr>
+
+            <h4>Gender</h4>
+            <label for="">Male</label>
+                <input type="radio" 
+                name="Gender" 
+                id="male" 
+                value="male">
+                <label for="">Female</label>
+                <input type="radio" 
+                name="Gender" 
+                id="Female" 
+                value="Female">
+                <br>
+                <br>
+
+
+                <label for="username">
+                    Adress 1 :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder= "Enter your Adress">
+
+                <label for="username">
+                    City :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder="Enter your City">
+    
+                <br>
+                <br>
+    
+    
+                <label for="username">
+                    Adress 2 :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder="Enter your Adress">
+
+                <label for="username">
+                    State :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder="Enter your State">
+    
+                <br>
+                <br>
+
+                <label for="username">
+                    Adress 3 :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder="Enter your Adress">
+                <hr>
+
+                <label for="username">
+                    Country :
+                </label>
+                <input type="text"
+                id="username"
+                placeholder="Enter your Country">
+                <br>
+                <h4>Phone Number</h4>
+
+                <select name="languages" id="languages">
+                    <option value="+21">+21</option>
+                    <option value="+91" selected>+91</option>
+                    <option value="+13">+13</option>
+                    <option value="+56">+56</option>
+                    <option value="+98">+98</option>
+                </select>
+    <h4>Choose Country</h4>
+                <select name="languages" id="languages">
+                    <option value="Australia">Australia</option>
+                    <option value="India" selected>India</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Newzealand">Newzealand</option>
+                    <option value="Russia">Russia</option>
+                </select>
+<hr>
+                <h4>Upload Resume</h4>
+                <input type="file">
+
+
+                <h4>Cover Letter</h4>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                <br>
+                <br>
+                <hr>
+
+                <button>
+
+                    <input type="submit" value="Submit">
+                    </button>
+            
+
+
+
+
+
+
+    </form>
+</body>
+</html>
