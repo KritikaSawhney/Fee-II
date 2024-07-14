@@ -1,0 +1,60 @@
+/* universal selector */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* attribute selector  */
+  
+  input[type="text"] {
+    background-color: red;
+  }
+  input[type="password"] {
+    background-color: blue;
+  }
+  [type="email"] {
+    background-color: pink;
+  }
+  
+  [placeholder="email domain"] {
+    color: blue;
+  }
+  
+  /* element selector  */
+  p {
+    background-color: pink;
+  }
+  
+  /* class selector  */
+  .a1 {
+    font-weight: 800;
+  }
+  
+  /* id selector   */
+  #fruits {
+    background-color: orange;
+  }
+  /* Decendent Selector */
+ul li a{
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Child Combination Selector */
+ol>li{
+
+  background-color: yellow;
+}
+/* Adjacent Selector */
+h3+p{
+
+  background-color: fuchsia;
+  border-top: 2px red;
+}
+
+/* General Sibling contributor */
+
+div ~ h3{
+  color: cyan;
+  
+}
