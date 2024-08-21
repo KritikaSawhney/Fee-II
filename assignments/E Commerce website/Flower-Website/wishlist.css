@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s linear;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+  }
+  /* adding a variable */
+  :root {
+    --pink: #e84393;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 9%;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    background: white;
+  }
+  .logo {
+    font-size: 2.1em;
+    color: #333;
+    font-weight: bolder;
+    font-weight: 700;
+  }
+  .logo span,
+  nav a:hover,
+  header i:hover {
+    color: var(--pink);
+  }body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fde4e1; /* Baby Pink Color */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #666;
+    font-size: 1.3em;
+    padding-right: 20px;
+  }
+  
+  header .icons i {
+    font-size: 1.5em;
+    padding-right: 0.8em;
+  }
+  header input,
+  header label {
+    display: none;
+  }
+  header label i {
+    cursor: pointer;
+  
+    font-size: 1.8em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.account-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.account-links a span {
+    color: #e74c3c;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.wishlist-icon img {
+    width: 135px;
+    margin: 20px 0;
+    height: 135px;
+}
+
+.start-shopping-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(327, 78%, 57%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item {
+    text-align: center;
+    width: 200px;
+}
+
+.footer-item img {
+    height: 40px;
+    margin-bottom: 10px;
+}
